@@ -7,7 +7,8 @@ import { noop } from "rxjs";
 import { tap } from "rxjs/operators";
 import { login } from "../auth.actions";
 import { AuthService } from "../auth.service";
-import { AppState } from "../reducers";
+import { AppState } from "../../reducers";
+
 
 @Component({
   selector: "login",
